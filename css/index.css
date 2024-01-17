@@ -1,0 +1,38 @@
+main{
+    display: block;
+    width: 100%;
+}
+
+#boxes{
+    width: 96%;
+    height: 90%;
+    margin: 0 auto;
+    padding: 2.1rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.box{
+    width: 24rem;
+    aspect-ratio: 2/1.1;
+    border-radius: 1rem;
+    background-color: #323232;
+}
+
+.project_titles{
+    height: 2rem;
+    padding: 1rem;
+    color: #efefef;
+    text-align: center;
+    text-wrap: wrap;
+    line-height: 2rem;
+}
+
+.box p{
+    margin: 1rem;
+    color: #ababab;
+    line-height: 1.4rem;
+}

@@ -1,0 +1,96 @@
+*{
+    font-size: 62.5%;
+    --siteColor-1: #212121;
+    --borderColor-1:rgb(17, 17, 17);
+    @import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">);
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: var(--siteColor-1);
+    color: #efefef;
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+    font-size: 1.8rem;
+}
+
+h2{
+    font-size: 1.6rem;
+}
+
+h3{
+    font-size: 2.2rem;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+a{
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #5586b6;
+}
+
+/* -----------header-------------- */
+
+header{
+    width: 100%;
+    height: 3rem;
+    top: 0;
+    /* position: fixed; */
+    background-color: var(--borderColor-1);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#developer{
+    margin: 1rem;
+    flex-basis: 40%;
+}
+
+#title{
+    text-align: center;
+}
+
+
+/* ---------------end of header---------- */
+
+/* ----------footer---------------- */
+.footer_main_contact{
+    width: 100%;
+    height: 2.6rem;
+    bottom: 0;
+    background-color: var(--borderColor-1);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+#contact{
+    color: #000;
+    padding: 0.6rem;
+    background-color: #da9723;
+    font-size: 1.2rem;
+}
+
+
+.footer_main_contact ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_main_contact ul li a{
+    font-size: 1.2rem;
+    margin-left: 2rem;
+}
